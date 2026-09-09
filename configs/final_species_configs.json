@@ -1,0 +1,191 @@
+{
+  "Rattus_norvegicus": {
+    "display_name": "R. norvegicus",
+    "input_dim": 43,
+    "lstm_layers": 1,
+    "hidden_size": 320,
+    "embedding_dim": 64,
+    "cnn_channels": 64,
+    "kernels": [
+      3,
+      5,
+      7
+    ],
+    "batch_size": 64,
+    "learning_rate": 5e-05,
+    "weight_decay": 0.001,
+    "dropout": 0.25,
+    "patience": 12,
+    "max_epochs": 80,
+    "expected_selected_epoch": 43,
+    "manuscript_parameters": 3022744
+  },
+  "Schistosoma_japonicum": {
+    "display_name": "S. japonicum",
+    "input_dim": 43,
+    "lstm_layers": 1,
+    "hidden_size": 120,
+    "embedding_dim": 64,
+    "cnn_channels": 64,
+    "kernels": [
+      3,
+      5,
+      7
+    ],
+    "batch_size": 32,
+    "learning_rate": 5e-05,
+    "weight_decay": 0.001,
+    "dropout": 0.45,
+    "patience": 20,
+    "max_epochs": 100,
+    "expected_selected_epoch": 99,
+    "manuscript_parameters": 598344
+  },
+  "Saccharomyces_cerevisiae": {
+    "display_name": "S. cerevisiae",
+    "input_dim": 43,
+    "lstm_layers": 1,
+    "hidden_size": 160,
+    "embedding_dim": 96,
+    "cnn_channels": 128,
+    "kernels": [
+      5,
+      7,
+      9
+    ],
+    "batch_size": 128,
+    "learning_rate": 5e-05,
+    "weight_decay": 0.001,
+    "dropout": 0.35,
+    "patience": 20,
+    "max_epochs": 80,
+    "expected_selected_epoch": 64,
+    "manuscript_parameters": 1292056
+  },
+  "Mus_musculus": {
+    "display_name": "M. musculus",
+    "input_dim": 43,
+    "lstm_layers": 1,
+    "hidden_size": 240,
+    "embedding_dim": 96,
+    "cnn_channels": 128,
+    "kernels": [
+      3,
+      5,
+      7
+    ],
+    "batch_size": 32,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.0001,
+    "dropout": 0.35,
+    "patience": 12,
+    "max_epochs": 120,
+    "expected_selected_epoch": 28,
+    "manuscript_parameters": 2193208
+  },
+  "Escherichia_coli": {
+    "display_name": "E. coli",
+    "input_dim": 43,
+    "lstm_layers": 1,
+    "hidden_size": 320,
+    "embedding_dim": 96,
+    "cnn_channels": 128,
+    "kernels": [
+      3,
+      5,
+      7
+    ],
+    "batch_size": 32,
+    "learning_rate": 0.0002,
+    "weight_decay": 0.0005,
+    "dropout": 0.45,
+    "patience": 12,
+    "max_epochs": 120,
+    "expected_selected_epoch": 19,
+    "manuscript_parameters": 3475288
+  },
+  "Bacillus_velezensis": {
+    "display_name": "B. velezensis",
+    "input_dim": 43,
+    "lstm_layers": 1,
+    "hidden_size": 160,
+    "embedding_dim": 64,
+    "cnn_channels": 64,
+    "kernels": [
+      5,
+      7,
+      9
+    ],
+    "batch_size": 32,
+    "learning_rate": 8e-05,
+    "weight_decay": 0.001,
+    "dropout": 0.45,
+    "patience": 12,
+    "max_epochs": 80,
+    "expected_selected_epoch": 71,
+    "manuscript_parameters": 954200
+  },
+  "Plasmodium_falciparum": {
+    "display_name": "P. falciparum",
+    "input_dim": 43,
+    "lstm_layers": 1,
+    "hidden_size": 160,
+    "embedding_dim": 96,
+    "cnn_channels": 128,
+    "kernels": [
+      5,
+      7,
+      9
+    ],
+    "batch_size": 32,
+    "learning_rate": 0.0002,
+    "weight_decay": 0.001,
+    "dropout": 0.25,
+    "patience": 20,
+    "max_epochs": 100,
+    "expected_selected_epoch": 55,
+    "manuscript_parameters": 1292056
+  },
+  "Oryza_sativa": {
+    "display_name": "O. sativa",
+    "input_dim": 43,
+    "lstm_layers": 1,
+    "hidden_size": 160,
+    "embedding_dim": 64,
+    "cnn_channels": 48,
+    "kernels": [
+      3,
+      5,
+      7
+    ],
+    "batch_size": 16,
+    "learning_rate": 2e-05,
+    "weight_decay": 0.0001,
+    "dropout": 0.25,
+    "patience": 20,
+    "max_epochs": 180,
+    "expected_selected_epoch": 171,
+    "manuscript_parameters": 883400
+  },
+  "Arabidopsis_thaliana": {
+    "display_name": "A. thaliana",
+    "input_dim": 43,
+    "lstm_layers": 1,
+    "hidden_size": 64,
+    "embedding_dim": 64,
+    "cnn_channels": 48,
+    "kernels": [
+      3,
+      5,
+      7
+    ],
+    "batch_size": 16,
+    "learning_rate": 8e-05,
+    "weight_decay": 0.0001,
+    "dropout": 0.35,
+    "patience": 8,
+    "max_epochs": 120,
+    "expected_selected_epoch": 7,
+    "manuscript_parameters": 235784
+  }
+}

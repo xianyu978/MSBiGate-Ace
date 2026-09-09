@@ -1,0 +1,617 @@
+{
+  "Arabidopsis_thaliana": {
+    "display_name": "A. thaliana",
+    "default_max_trials": 1000,
+    "space": {
+      "BATCH_SIZE": [
+        8,
+        16,
+        32
+      ],
+      "LR": [
+        2e-05,
+        5e-05,
+        8e-05,
+        0.0001
+      ],
+      "WEIGHT_DECAY": [
+        0.0001,
+        0.0005,
+        0.001
+      ],
+      "DROPOUT": [
+        0.35,
+        0.45,
+        0.5
+      ],
+      "HID_BLOSUM": [
+        64,
+        80,
+        120
+      ],
+      "EMB_DIM": [
+        32,
+        64
+      ],
+      "CNN_HID": [
+        32,
+        48,
+        64
+      ],
+      "CNN_KERNELS": [
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          5,
+          7
+        ],
+        [
+          5,
+          7,
+          9
+        ]
+      ],
+      "PATIENCE": [
+        8,
+        12,
+        20
+      ],
+      "EPOCHS": [
+        120,
+        180
+      ]
+    }
+  },
+  "Oryza_sativa": {
+    "display_name": "O. sativa",
+    "default_max_trials": 1000,
+    "space": {
+      "BATCH_SIZE": [
+        8,
+        16,
+        32
+      ],
+      "LR": [
+        2e-05,
+        5e-05,
+        8e-05,
+        0.0001
+      ],
+      "WEIGHT_DECAY": [
+        0.0001,
+        0.0005,
+        0.001
+      ],
+      "DROPOUT": [
+        0.25,
+        0.35,
+        0.45,
+        0.5
+      ],
+      "HID_BLOSUM": [
+        80,
+        120,
+        160
+      ],
+      "EMB_DIM": [
+        32,
+        64
+      ],
+      "CNN_HID": [
+        48,
+        64,
+        96
+      ],
+      "CNN_KERNELS": [
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          5,
+          7
+        ],
+        [
+          5,
+          7,
+          9
+        ]
+      ],
+      "PATIENCE": [
+        8,
+        12,
+        20
+      ],
+      "EPOCHS": [
+        120,
+        180
+      ]
+    }
+  },
+  "Schistosoma_japonicum": {
+    "display_name": "S. japonicum",
+    "default_max_trials": 500,
+    "space": {
+      "BATCH_SIZE": [
+        16,
+        32,
+        64
+      ],
+      "LR": [
+        5e-05,
+        8e-05,
+        0.0001,
+        0.0002
+      ],
+      "WEIGHT_DECAY": [
+        0.0001,
+        0.0005,
+        0.001
+      ],
+      "DROPOUT": [
+        0.25,
+        0.35,
+        0.45
+      ],
+      "HID_BLOSUM": [
+        120,
+        160,
+        240
+      ],
+      "EMB_DIM": [
+        32,
+        64,
+        96
+      ],
+      "CNN_HID": [
+        64,
+        96,
+        128
+      ],
+      "CNN_KERNELS": [
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          5,
+          7
+        ],
+        [
+          5,
+          7,
+          9
+        ]
+      ],
+      "PATIENCE": [
+        12,
+        20
+      ],
+      "EPOCHS": [
+        100,
+        140
+      ]
+    }
+  },
+  "Bacillus_velezensis": {
+    "display_name": "B. velezensis",
+    "default_max_trials": 500,
+    "space": {
+      "BATCH_SIZE": [
+        16,
+        32,
+        64
+      ],
+      "LR": [
+        5e-05,
+        8e-05,
+        0.0001,
+        0.0002
+      ],
+      "WEIGHT_DECAY": [
+        0.0001,
+        0.0005,
+        0.001
+      ],
+      "DROPOUT": [
+        0.25,
+        0.35,
+        0.45
+      ],
+      "HID_BLOSUM": [
+        120,
+        160,
+        240,
+        320
+      ],
+      "EMB_DIM": [
+        64,
+        96
+      ],
+      "CNN_HID": [
+        64,
+        96,
+        128
+      ],
+      "CNN_KERNELS": [
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          5,
+          7
+        ],
+        [
+          5,
+          7,
+          9
+        ],
+        [
+          3,
+          5,
+          7,
+          9
+        ]
+      ],
+      "PATIENCE": [
+        12,
+        20
+      ],
+      "EPOCHS": [
+        80,
+        120,
+        140
+      ]
+    }
+  },
+  "Plasmodium_falciparum": {
+    "display_name": "P. falciparum",
+    "default_max_trials": 500,
+    "space": {
+      "BATCH_SIZE": [
+        16,
+        32,
+        64
+      ],
+      "LR": [
+        5e-05,
+        8e-05,
+        0.0001,
+        0.0002
+      ],
+      "WEIGHT_DECAY": [
+        0.0001,
+        0.0005,
+        0.001
+      ],
+      "DROPOUT": [
+        0.25,
+        0.35,
+        0.45
+      ],
+      "HID_BLOSUM": [
+        160,
+        240,
+        320
+      ],
+      "EMB_DIM": [
+        64,
+        96
+      ],
+      "CNN_HID": [
+        64,
+        96,
+        128
+      ],
+      "CNN_KERNELS": [
+        [
+          3,
+          5,
+          7
+        ],
+        [
+          5,
+          7,
+          9
+        ],
+        [
+          3,
+          5,
+          7,
+          9
+        ]
+      ],
+      "PATIENCE": [
+        12,
+        20
+      ],
+      "EPOCHS": [
+        100,
+        140
+      ]
+    }
+  },
+  "Escherichia_coli": {
+    "display_name": "E. coli",
+    "default_max_trials": 300,
+    "space": {
+      "BATCH_SIZE": [
+        32,
+        64,
+        128
+      ],
+      "LR": [
+        5e-05,
+        8e-05,
+        0.0001,
+        0.0002
+      ],
+      "WEIGHT_DECAY": [
+        0.0001,
+        0.0005,
+        0.001
+      ],
+      "DROPOUT": [
+        0.25,
+        0.35,
+        0.45
+      ],
+      "HID_BLOSUM": [
+        160,
+        240,
+        320
+      ],
+      "EMB_DIM": [
+        64,
+        96
+      ],
+      "CNN_HID": [
+        64,
+        96,
+        128
+      ],
+      "CNN_KERNELS": [
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          5,
+          7
+        ],
+        [
+          5,
+          7,
+          9
+        ],
+        [
+          3,
+          5,
+          7,
+          9
+        ]
+      ],
+      "PATIENCE": [
+        12,
+        20
+      ],
+      "EPOCHS": [
+        80,
+        120
+      ]
+    }
+  },
+  "Mus_musculus": {
+    "display_name": "M. musculus",
+    "default_max_trials": 300,
+    "space": {
+      "BATCH_SIZE": [
+        32,
+        64,
+        128
+      ],
+      "LR": [
+        5e-05,
+        8e-05,
+        0.0001,
+        0.0002
+      ],
+      "WEIGHT_DECAY": [
+        0.0001,
+        0.0005,
+        0.001
+      ],
+      "DROPOUT": [
+        0.25,
+        0.35,
+        0.45,
+        0.5
+      ],
+      "HID_BLOSUM": [
+        160,
+        240,
+        320
+      ],
+      "EMB_DIM": [
+        64,
+        96
+      ],
+      "CNN_HID": [
+        64,
+        96,
+        128
+      ],
+      "CNN_KERNELS": [
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          5,
+          7
+        ],
+        [
+          5,
+          7,
+          9
+        ],
+        [
+          3,
+          5,
+          7,
+          9
+        ]
+      ],
+      "PATIENCE": [
+        12,
+        20
+      ],
+      "EPOCHS": [
+        80,
+        120
+      ]
+    }
+  },
+  "Rattus_norvegicus": {
+    "display_name": "R. norvegicus",
+    "default_max_trials": 300,
+    "space": {
+      "BATCH_SIZE": [
+        32,
+        64,
+        128
+      ],
+      "LR": [
+        5e-05,
+        8e-05,
+        0.0001,
+        0.0002
+      ],
+      "WEIGHT_DECAY": [
+        0.0001,
+        0.0005,
+        0.001
+      ],
+      "DROPOUT": [
+        0.25,
+        0.35,
+        0.45
+      ],
+      "HID_BLOSUM": [
+        160,
+        240,
+        320
+      ],
+      "EMB_DIM": [
+        64,
+        96
+      ],
+      "CNN_HID": [
+        64,
+        96,
+        128
+      ],
+      "CNN_KERNELS": [
+        [
+          3,
+          5,
+          7
+        ],
+        [
+          5,
+          7,
+          9
+        ],
+        [
+          3,
+          5,
+          7,
+          9
+        ]
+      ],
+      "PATIENCE": [
+        12,
+        20
+      ],
+      "EPOCHS": [
+        80,
+        120
+      ]
+    }
+  },
+  "Saccharomyces_cerevisiae": {
+    "display_name": "S. cerevisiae",
+    "default_max_trials": 300,
+    "space": {
+      "BATCH_SIZE": [
+        64,
+        128
+      ],
+      "LR": [
+        5e-05,
+        8e-05,
+        0.0001,
+        0.0002
+      ],
+      "WEIGHT_DECAY": [
+        0.0001,
+        0.0005,
+        0.001
+      ],
+      "DROPOUT": [
+        0.25,
+        0.35,
+        0.45
+      ],
+      "HID_BLOSUM": [
+        160,
+        240,
+        320
+      ],
+      "EMB_DIM": [
+        64,
+        96
+      ],
+      "CNN_HID": [
+        96,
+        128,
+        160
+      ],
+      "CNN_KERNELS": [
+        [
+          3,
+          5,
+          7
+        ],
+        [
+          5,
+          7,
+          9
+        ],
+        [
+          3,
+          5,
+          7,
+          9
+        ]
+      ],
+      "PATIENCE": [
+        12,
+        20
+      ],
+      "EPOCHS": [
+        80,
+        120
+      ]
+    }
+  }
+}
