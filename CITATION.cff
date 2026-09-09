@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: "MSBiGate-Ace: a center-aware multi-scale CNN-BiLSTM gated fusion framework for species-specific lysine acetylation-site prediction"
+message: "If you use this software, please cite the associated manuscript. Final journal and DOI information will be added after publication."
+type: software
+authors:
+  - family-names: Luo
+    given-names: Wei
+  - family-names: Liu
+    given-names: Zi
+  - family-names: Wu
+    given-names: Huan
+  - family-names: Xiao
+    given-names: Xuan
+  - family-names: Lin
+    given-names: Weizhong
+  - family-names: Qiu
+    given-names: Wang-Ren
+version: 1.0.0
+date-released: 2026-09-09
+license: MIT
+
+repository-code: "https://github.com/xingleyun/MSBiGate-Ace"
