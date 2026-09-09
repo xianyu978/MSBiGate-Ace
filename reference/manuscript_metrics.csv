@@ -1,0 +1,10 @@
+Species,AUROC,AUPRC,MCC,Brier,ECE,Threshold_at_Sp_0.900
+Rattus_norvegicus,0.782,0.773,0.362,0.199,0.093,0.827
+Schistosoma_japonicum,0.859,0.835,0.546,0.158,0.076,0.857
+Saccharomyces_cerevisiae,0.834,0.819,0.462,0.172,0.078,0.832
+Mus_musculus,0.794,0.76,0.366,0.19,0.066,0.767
+Escherichia_coli,0.805,0.784,0.401,0.192,0.098,0.876
+Bacillus_velezensis,0.892,0.887,0.606,0.141,0.086,0.857
+Plasmodium_falciparum,0.732,0.734,0.351,0.282,0.261,0.975
+Oryza_sativa,0.817,0.861,0.523,0.21,0.175,0.846
+Arabidopsis_thaliana,0.72,0.847,0.447,0.232,0.142,0.542

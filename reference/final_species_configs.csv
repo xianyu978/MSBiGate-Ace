@@ -1,0 +1,10 @@
+Species,Input_dim,BiLSTM_layers,Hidden_size,Embedding_dim,CNN_channels,Kernel_set,Parameters,Batch_size,Learning_rate,Weight_decay,Dropout,Patience,Max_epochs,Selected_epoch
+Rattus_norvegicus,43,1,320,64,64,3 5 7,3022744,64,5e-05,0.001,0.25,12,80,43
+Schistosoma_japonicum,43,1,120,64,64,3 5 7,598344,32,5e-05,0.001,0.45,20,100,99
+Saccharomyces_cerevisiae,43,1,160,96,128,5 7 9,1292056,128,5e-05,0.001,0.35,20,80,64
+Mus_musculus,43,1,240,96,128,3 5 7,2193208,32,0.0001,0.0001,0.35,12,120,28
+Escherichia_coli,43,1,320,96,128,3 5 7,3475288,32,0.0002,0.0005,0.45,12,120,19
+Bacillus_velezensis,43,1,160,64,64,5 7 9,954200,32,8e-05,0.001,0.45,12,80,71
+Plasmodium_falciparum,43,1,160,96,128,5 7 9,1292056,32,0.0002,0.001,0.25,20,100,55
+Oryza_sativa,43,1,160,64,48,3 5 7,883400,16,2e-05,0.0001,0.25,20,180,171
+Arabidopsis_thaliana,43,1,64,64,48,3 5 7,235784,16,8e-05,0.0001,0.35,8,120,7
