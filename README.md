@@ -28,7 +28,13 @@ MSBiGate-Ace/
 ```
 
 The public package intentionally uses **one shared implementation** rather than nine nearly identical species-specific Python scripts. Species-specific differences are stored in the configuration files under `configs/`.
+## Web server
 
+An online web server for MSBiGate-Ace is available at:
+
+https://www.jcu-qiulab.com/MSBiGate-Ace/
+
+The server supports species-specific lysine acetylation-site prediction for the nine species investigated in this study.
 ## Model
 
 For each 31-residue sequence window, the model uses:
