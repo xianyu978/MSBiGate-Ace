@@ -63,7 +63,7 @@ The released MSBiGate-Ace model code itself is sequence-based and does not impor
 ## Installation
 
 ```bash
-git clone https://github.com/xingleyun/MSBiGate-Ace.git
+git clone https://github.com/xianyu978/MSBiGate-Ace.git
 cd MSBiGate-Ace
 python -m venv .venv
 source .venv/bin/activate  # Linux/macOS
